@@ -12,6 +12,7 @@ for educational purposes only!
 - [Remove Version Control & Cloud Dashboard columns](#remove-version-control--cloud-dashboard-columns)
 - [Add Support for Custom Project Titles from ProjectName.txt or ProjectSettings ProductName field (instead of using folder name)](#add-support-for-custom-project-titles-from-projectnametxt-or-projectsettings-productname-field-instead-of-using-folder-name)
 - [Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
+- [Custom Styles](#custom-styles)
 
 <br>
 <hr>
@@ -46,3 +47,7 @@ for educational purposes only!
 - Video example: https://www.youtube.com/watch?v=3e9FSimbdfk
 - ![GF2Au1-XUAEEra3](https://github.com/unitycoder/UnityHubModding/assets/5438317/3bb074e3-4118-4eef-ac6f-d03ff45eefdf)
 
+### Custom Styles
+- tested in Hub 3.0.x
+- Light color theme example, but you could modify the css to anything else https://unitycoder.com/blog/2022/03/02/customize-unityhub-colors/
+- ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/90c77478-fe4f-43d2-ba7e-3090dedc9d46)
