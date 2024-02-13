@@ -1,12 +1,17 @@
 # UnityHubModding
 for educational purposes only!
 
+### Hów to unpack app.asar?
+- Unpack app.asar from Hub folder (using 7zip Asar plugin https://www.tc4shell.com/en/7zip/asar/ or python script https://github.com/unitycoder/UnityHubPatcher )
+- rename old app.asar as app.asar.bak (then hub will run using the app/ folder instead of app.asar)
+- Open app/ folder in VSCode/VSStudio (need to run as an Admin!)
+
 ## Contents
-- [link Uncheck "Connect to Unity Cloud" by default](#uncheck-connect-to-unity-cloud-by-default)
-- [link Enable Create Project Button (without having to select Cloud Organization)](#enable-create-project-button-without-having-to-select-cloud-organization)
-- [link Remove Version Control & Cloud Dashboard columns](#remove-version-control--cloud-dashboard-columns)
-- [link Add Support for Custom Project Titles from ProjectName.txt or ProjectSettings ProductName field (instead of using folder name)](#add-support-for-custom-project-titles-from-projectnametxt-or-projectsettings-productname-field-instead-of-using-folder-name)
-- [link Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
+- [Uncheck "Connect to Unity Cloud" by default](#uncheck-connect-to-unity-cloud-by-default)
+- [Enable Create Project Button (without having to select Cloud Organization)](#enable-create-project-button-without-having-to-select-cloud-organization)
+- [Remove Version Control & Cloud Dashboard columns](#remove-version-control--cloud-dashboard-columns)
+- [Add Support for Custom Project Titles from ProjectName.txt or ProjectSettings ProductName field (instead of using folder name)](#add-support-for-custom-project-titles-from-projectnametxt-or-projectsettings-productname-field-instead-of-using-folder-name)
+- [Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
 
 <br>
 <hr>
