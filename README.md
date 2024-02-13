@@ -1,5 +1,7 @@
 # UnityHubModding
-for educational purposes only!
+For educational purposes only!<br>
+Personally i use alternative launchers, so not affected from these Hub Pains(tm)<br>
+Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alternative-Launchers<br>
 
 ### Hów to unpack app.asar?
 - Unpack app.asar from Hub folder (using 7zip Asar plugin https://www.tc4shell.com/en/7zip/asar/ or python script https://github.com/unitycoder/UnityHubPatcher )
