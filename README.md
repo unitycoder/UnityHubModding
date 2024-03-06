@@ -15,6 +15,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Add Support for Custom Project Titles from ProjectName.txt or ProjectSettings ProductName field (instead of using folder name)](#add-support-for-custom-project-titles-from-projectnametxt-or-projectsettings-productname-field-instead-of-using-folder-name)
 - [Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
 - [Custom Styles](#custom-styles)
+- [Custom Previews or any html for project template description](#custom-previews-or-any-html-for-project-templates-description)
 
 <br>
 <hr>
