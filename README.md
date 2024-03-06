@@ -58,3 +58,5 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 ### Custom Previews (or any html) for Project Templates description
 - Modify package.json to add HTML+CSS
 - https://unitycoder.com/blog/2024/03/06/custom-unity-hub-project-template-preview-image-video-using-htmlcss-in-package-description/
+- ![ssprojecttemplate2024-03-06 11-39-57](https://github.com/unitycoder/UnityHubModding/assets/5438317/c054a96c-5e58-4842-8fb4-ac0b5fee16c9)
+
