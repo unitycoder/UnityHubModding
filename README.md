@@ -53,3 +53,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - tested in Hub 3.0.x
 - Light color theme example, but you could modify the css to anything else https://unitycoder.com/blog/2022/03/02/customize-unityhub-colors/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/90c77478-fe4f-43d2-ba7e-3090dedc9d46)
+
+### Custom Previews (or any html) for Project Templates description
+- Modify package.json to add HTML+CSS
+- https://unitycoder.com/blog/2024/03/06/custom-unity-hub-project-template-preview-image-video-using-htmlcss-in-package-description/
