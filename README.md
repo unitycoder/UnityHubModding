@@ -66,6 +66,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Find line: <br> ```if ((0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)()) {```
 - Replace with<br> ```if (1==0 && (0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)())```
 - (to make this “if” be false, so that createLoginWindow gets called instead)
+- Alternative to modifying source: Could try disabling "UnityHub" protocol from Registry, since the code tries to check for it "isUnityHubProtocolHandled"
 - info https://unitycoder.com/blog/2024/04/26/unityhub-enable-builtin-login-dialog-no-more-browser-login-logout-issues/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/43afdd85-d3f4-491c-9bba-8e1af4b9c9e0)
 
