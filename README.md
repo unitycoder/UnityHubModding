@@ -16,7 +16,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
 - [Custom Styles](#custom-styles)
 - [Custom Previews or any html for project template description](#custom-previews-or-any-html-for-project-templates-description)
-
+- [Enable Buildin Login Dialog (no more browser login/logout issues with multiple accounts](#enable-buildin-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
 <br>
 <hr>
 
