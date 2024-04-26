@@ -45,7 +45,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 
 ### Add IRC Chat to Hub window (using iframe)
 - Tested on Hub 3.6.1
-- Open nuild/renderer/index.html
+- Open _build/renderer/index.html_
 - Add any IRC embed code before ```</body>```, like: ```<iframe src="https://chat.undernet.org/" style="background: #444; width:99%; height:450px;"></iframe>```
 - Video example: https://www.youtube.com/watch?v=3e9FSimbdfk
 - ![GF2Au1-XUAEEra3](https://github.com/unitycoder/UnityHubModding/assets/5438317/3bb074e3-4118-4eef-ac6f-d03ff45eefdf)
@@ -60,4 +60,12 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Modify package.json to add HTML+CSS
 - https://unitycoder.com/blog/2024/03/06/custom-unity-hub-project-template-preview-image-video-using-htmlcss-in-package-description/
 - ![ssprojecttemplate2024-03-06 11-39-57](https://github.com/unitycoder/UnityHubModding/assets/5438317/c054a96c-5e58-4842-8fb4-ac0b5fee16c9)
+
+### Enable Buildin Login Dialog (no more browser login/logout issues with multiple accounts!)
+- Open Unity _Hub\resources\app\build\main\services\authService\AuthService.js_
+- Find line: <br> ```if ((0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)()) {```
+- Replace with<br> ```if (1==0 && (0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)())```
+- (to make this “if” be false, so that createLoginWindow gets called instead)
+- info https://unitycoder.com/blog/2024/04/26/unityhub-enable-builtin-login-dialog-no-more-browser-login-logout-issues/
+- ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/43afdd85-d3f4-491c-9bba-8e1af4b9c9e0)
 
