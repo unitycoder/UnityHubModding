@@ -76,3 +76,5 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - add ```const electron_1 = require("electron");``` at the top (next to other require lines)
 - Find line ```logger.debug('close event is prevented, browser window will be hidden');```
 - add this line after it ```electron_1.app.quit();```
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
