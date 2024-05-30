@@ -26,6 +26,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - open build/renderer/main.js
 - find line:<br> ```{testId:"connect-services-checkbox",id:"unified-project-enabled-checkbox",isChecked:Y,onChange```
 - replace with:<br> ```{testId:"connect-services-checkbox",id:"unified-project-enabled-checkbox",isChecked:0==1,onChange```
+<hr>
 
 ### Enable Create Project Button (without having to select Cloud Organization)
 - Tested on Hub 3.6.1
@@ -33,16 +34,19 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - find line:<br> ```{r({id:"cancel-create-project",label:"Cancel"}),e()},testId:`cancel-project-${i.name}`},n("common:CANCEL")),s.default.createElement(u.Button,{isDisabled:o||S,onClick:function(){r```
 - replace with:<br> ```{r({id:"cancel-create-project",label:"Cancel"}),e()},testId:`cancel-project-${i.name}`},n("common:CANCEL")),s.default.createElement(u.Button,{isDisabled:1==0,onClick:function()```
 - ![GGKi2WcXEAAT6EX](https://github.com/unitycoder/UnityHubModding/assets/5438317/699475de-a59b-47f8-a3d0-2a10cb8f3af8)
+<hr>
 
 ### Remove Version Control & Cloud Dashboard columns
 - Tested on Hub 3.6.1
 - https://unitycoder.com/blog/2023/10/29/unityhub-3-6-0-remove-version-control-cloud-dashboard-columns/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/426aa7bb-9752-47bf-bfb4-d8ab1001a607)
-  
+  <hr>
+
 ### Add Support for Custom Project Titles from ProjectName.txt or ProjectSettings ProductName field (instead of using folder name)
 - Tested on Hub 3.6.1
 - https://unitycoder.com/blog/2023/12/07/unityhub-add-support-for-custom-project-titles-instead-of-folder-name/
 - ![upload_2023-12-7_13-47-12](https://github.com/unitycoder/UnityHubModding/assets/5438317/69337194-6d55-455b-affb-9a8789b952f9)
+<hr>
 
 ### Add IRC Chat to Hub window (using iframe)
 - Tested on Hub 3.6.1
@@ -50,17 +54,20 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Add any IRC embed code before ```</body>```, like: ```<iframe src="https://chat.undernet.org/" style="background: #444; width:99%; height:450px;"></iframe>```
 - Video example: https://www.youtube.com/watch?v=3e9FSimbdfk
 - ![GF2Au1-XUAEEra3](https://github.com/unitycoder/UnityHubModding/assets/5438317/3bb074e3-4118-4eef-ac6f-d03ff45eefdf)
+<hr>
 
 ### Custom Styles
 - tested in Hub 3.0.x
 - Light color theme example, but you could modify the css to anything else https://unitycoder.com/blog/2022/03/02/customize-unityhub-colors/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/90c77478-fe4f-43d2-ba7e-3090dedc9d46)
+<hr>
 
 ### Custom Previews (or any html) for Project Templates description
 - This doesn't require modifying Hub sources! it just works.
 - Modify package.json to add HTML+CSS
 - https://unitycoder.com/blog/2024/03/06/custom-unity-hub-project-template-preview-image-video-using-htmlcss-in-package-description/
 - ![ssprojecttemplate2024-03-06 11-39-57](https://github.com/unitycoder/UnityHubModding/assets/5438317/c054a96c-5e58-4842-8fb4-ac0b5fee16c9)
+<hr>
 
 ### Enable Buildin Login Dialog (no more browser login/logout issues with multiple accounts!)
 - Open Unity _Hub\resources\app\build\main\services\authService\AuthService.js_
@@ -70,11 +77,13 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Alternative to modifying source: Could try disabling "UnityHub" protocol from Registry, since the code tries to check for it "isUnityHubProtocolHandled"
 - info https://unitycoder.com/blog/2024/04/26/unityhub-enable-builtin-login-dialog-no-more-browser-login-logout-issues/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/43afdd85-d3f4-491c-9bba-8e1af4b9c9e0)
+<hr>
 
 ### Completely quit Unity Hub when you press X (window close button)
 - Open baseWindow.js
 - add ```const electron_1 = require("electron");``` at the top (next to other require lines)
 - Find line ```logger.debug('close event is prevented, browser window will be hidden');```
 - add this line after it ```electron_1.app.quit();```
+<hr>
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
