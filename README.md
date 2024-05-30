@@ -17,6 +17,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Custom Styles](#custom-styles)
 - [Custom Previews or any html for project template description](#custom-previews-or-any-html-for-project-templates-description)
 - [Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts](#enable-buildin-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
+- [Completely quit Hub when you press X (window close button)](#completely-quit-unity-hub-when-you-press-x-window-close-button)
 <br>
 <hr>
 
@@ -70,3 +71,8 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - info https://unitycoder.com/blog/2024/04/26/unityhub-enable-builtin-login-dialog-no-more-browser-login-logout-issues/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/43afdd85-d3f4-491c-9bba-8e1af4b9c9e0)
 
+### Completely quit Unity Hub when you press X (window close button)
+- Open baseWindow.js
+- add ```const electron_1 = require("electron");``` at the top (next to other require lines)
+- Find line ```logger.debug('close event is prevented, browser window will be hidden');```
+- add this line after it ```electron_1.app.quit();```
