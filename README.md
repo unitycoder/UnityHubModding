@@ -18,6 +18,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Custom Previews or any html for project template description](#custom-previews-or-any-html-for-project-templates-description)
 - [Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts](#enable-buildin-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
 - [Completely quit Hub when you press X (window close button)](#completely-quit-unity-hub-when-you-press-x-window-close-button)
+- [Make Hub background translucent](#make-hub-background-translucent)
 <br>
 <hr>
 
@@ -85,5 +86,10 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Find line ```logger.debug('close event is prevented, browser window will be hidden');```
 - add this line after it ```electron_1.app.quit();```
 <hr>
+
+### Make Hub background translucent
+- Steps: https://unitycoder.com/blog/2024/07/05/unityhub-make-hub-application-background-translucent/
+- ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/55892c15-2819-4f46-b76a-41ad019e5571)
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
