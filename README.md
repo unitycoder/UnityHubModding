@@ -16,7 +16,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Add IRC Chat to Hub window (using iframe)](#add-irc-chat-to-hub-window-using-iframe))
 - [Custom Styles](#custom-styles)
 - [Custom Previews or any html for project template description](#custom-previews-or-any-html-for-project-templates-description)
-- [Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts](#enable-buildin-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
+- [Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts](#enable-built-in-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
 - [Completely quit Hub when you press X (window close button)](#completely-quit-unity-hub-when-you-press-x-window-close-button)
 - [Make Hub background translucent](#make-hub-background-translucent)
 <br>
@@ -70,7 +70,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - ![ssprojecttemplate2024-03-06 11-39-57](https://github.com/unitycoder/UnityHubModding/assets/5438317/c054a96c-5e58-4842-8fb4-ac0b5fee16c9)
 <hr>
 
-### Enable Buildin Login Dialog (no more browser login/logout issues with multiple accounts!)
+### Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts!)
 - Open Unity _Hub\resources\app\build\main\services\authService\AuthService.js_
 - Find line: <br> ```if ((0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)()) {```
 - Replace with<br> ```if (1==0 && (0, appDefaultProtocolClientHelpers_1.isUnityHubProtocolHandled)())```
