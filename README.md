@@ -4,8 +4,8 @@ Personally i use alternative launchers, so not affected from these Hub Pains(tm)
 Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alternative-Launchers<br>
 
 ### Hów to unpack app.asar?
-- Unpack app.asar from Hub folder (using 7zip Asar plugin https://www.tc4shell.com/en/7zip/asar/ or python script https://github.com/unitycoder/UnityHubPatcher )
-- rename old app.asar as app.asar.bak (then hub will run using the app/ folder instead of app.asar)
+- Inside C:\Program Files\Unity Hub\resources\ Unpack app.asar into app/ folder (using 7zip Asar plugin https://www.tc4shell.com/en/7zip/asar/ or python script https://github.com/unitycoder/UnityHubPatcher )
+- Rename old app.asar as app.asar.bak (then hub will run using the app/ folder instead of app.asar)
 - Open app/ folder in VSCode/VSStudio (need to run as an Admin!)
 
 ## Contents
