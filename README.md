@@ -19,6 +19,7 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - [Enable Built-in Login Dialog (no more browser login/logout issues with multiple accounts](#enable-built-in-login-dialog-no-more-browser-loginlogout-issues-with-multiple-accounts)
 - [Completely quit Hub when you press X (window close button)](#completely-quit-unity-hub-when-you-press-x-window-close-button)
 - [Make Hub background translucent](#make-hub-background-translucent)
+- [Custom username initials in Editor](#custom-username-initials-in-editor)
 <br>
 <hr>
 
@@ -91,5 +92,12 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Steps: https://unitycoder.com/blog/2024/07/05/unityhub-make-hub-application-background-translucent/
 - ![image](https://github.com/unitycoder/UnityHubModding/assets/5438317/55892c15-2819-4f46-b76a-41ad019e5571)
 
+### Custom username initials in Editor
+- If you dont want to doxx your initials on Editor screen
+- You change them in Unity Profile at unity id site, or modify hub sources
+- Open AuthServices.js
+- Find ```displayName: this.userInfo.name,``` (its inside getFormattedUserInfo() method)
+- replace with any short string for your initials
+- ![Image](https://github.com/user-attachments/assets/6c7e5c0c-a6fb-447f-b6ab-44f5eb3e7938)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
