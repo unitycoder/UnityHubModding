@@ -99,5 +99,12 @@ Alternative Launchers: https://github.com/unitycoder/UnityLauncherPro/wiki/Alter
 - Find ```displayName: this.userInfo.name,``` (its inside getFormattedUserInfo() method)
 - replace with any short string for your initials
 - ![Image](https://github.com/user-attachments/assets/6c7e5c0c-a6fb-447f-b6ab-44f5eb3e7938)
+- Hub 3.12.x has everything changed:
+- Open IdentityProvider.js
+- Find ```const { userInfo: e } = AuthService_1.default;```
+- override your initials there
+- ```e.name = "🥔 🥔";```
+- ![image](https://github.com/user-attachments/assets/88eca0aa-9b07-4688-8e96-b8b18863ab0c)
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
